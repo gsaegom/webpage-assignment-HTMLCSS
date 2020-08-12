@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Contact form</title>
+  </head>
+  <body>
+    <nav class="menu">
+    <div class="about">
+     <a href="about.html">About</a>
+    </div>
+     <div class="google-translate">
+     <a href="google-translate.html">Google Translate</a></div>
+     <div class="contact-form"><a href="contact-form.html">Contact</a></div>
+    </nav>
+    <div class="text">
+    <header class="form-header">
+      <h1>Contact form</h1>
+    </header>
+        <p>Hey there! Why don't you go ahead and tell me a bit about yourself?
+        No required fields here. Feel free to fill out whatever you want.</p>
+      <form class="speaker-form" action=" " method="get">
+  <div class="form-row">
+    <label for="full-name">Name</label>
+    <input type="text" name="full-name" id="full-name" placeholder="Joe Smith">
+  </div>
+  <div class="form-row">
+    <label for="nickname">Nickname</label>
+    <input type="text" name="nickname" id="nickname" placeholder="Smithy">
+    </div>
+    <div class="form-row">
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" placeholder="99" min="18" max="116">  
+    </div>
+  <div class="form-row">
+    <label for="email">Email</label>
+    <input type="email" name="email" value="email" placeholder="joe@example.com">
+  </div>
+  <fieldset class="legacy-form-row">
+  <legend>Do you wanna be my friend?</legend>
+  <input id="friend-yes" type="radio" name="friend" value="Yes" checked>
+  <label for="friend-yes" class="radio-label">Sure!</label>
+  <input id='friend-no' name='friend'type='radio'value='friend'/>
+    <label for='friend-no' class='radio-label'>I have enough friends already</label>
+  </fieldset>
+  <div class='form-row'>
+    <label for='language'>In what language should I speak to you?</label>
+    <select id='language' name='language'>
+      <option value='choose'>Please choose a language</option>
+      <option value='arabic'>Arabic</option>
+      <option value='catalan'>Catalan</option>
+      <option value='chinese'>Chinese</option>
+      <option value='czech'>Czech</option>
+      <option value='dutch'>Dutch</option>
+      <option value='english'>English</option>
+      <option value='french'>French</option>
+      <option value='spanish'>Spanish</option>
+    </select>
+  </div>
+  <div class="form-row">
+    <label for="hobbies">Hobbies</label>
+    <textarea name="hobbies" name="hobbies"></textarea>
+  </div>
+  <div class='form-row'>
+    <button>Submit</button>
+  </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>

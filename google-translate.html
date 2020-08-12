@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Google Translate</title>
+  </head>
+  <body>
+    <nav class="menu">
+   <div class="about">
+     <a href="about.html">About</a>
+   </div>
+     <div class="google-translate"target="_blank">
+     <a href="google-translate.html" target="_blank">Google Translate</a></div>
+     <div class="contact-form"><a href="contact-form.html" target="_blank">Contact</a></div>
+
+   </nav>
+  <div class="text">
+    <h1>Google Translate</h1>
+
+    <p>If I got five cents every time someone says to me "So you're a translator? Can't you just use Google Translate?", this would be me right now:</p>
+<img src='images/scrooge.gif' width='500' alt='Scrooge Mcduck jumping into a money pool'/>
+<p>So how does it actually work? What kind of magic is there behind that programme that allows us to translate texts from Swahili into German and vice versa? How good is it?</p>
+
+    <h2>What is Google Translate</h2>
+
+    <p>Google Translate is a multilingual machine translation system developed and provided by Google. It translates text, voice, images or video in real time from one language to another. It has a web interface, as well as mobile interfaces for iOS and Android, and an API that developers can use to build browser extensions, applications, and other software. Google Translate can translate from 109 languages and it is used by more than 200 million people every day.</p>
+
+    <h2>History</h2>
+
+    <p>Launched in April 2006 as a statistical machine translation service, it used United Nations and European Parliament documents and transcripts to gather linguistic data. Instead of translating languages directly, it first translates text to English and then pivots to the target language in most of the language combinations. It looks for patterns in millions of documents to help decide on which words to choose and how to arrange them in the target language.</p>
+
+    <p>In November 2016, Google announced that Google Translate would switch to a neural machine translation engine - Google Neural Machine Translation (GNMT) - which translates "whole sentences at a time, rather than just piece by piece. It uses this broader context to help it figure out the most relevant translation, which it then rearranges and adjusts to be more like a human speaking with proper grammar". As of 2020, GNMT is used in all 109 languages in the Google Translate roster.</p>
+
+    <h2>Neural machine translation</h2>
+
+    <p>Neural machine translation (NMT) is an approach to machine translation that uses an artificial neural network to predict the likelihood of a sequence of words, typically modeling entire sentences in a single integrated model.</p>
+
+    <p>Technically, NMTs encompass all types of machine translation where an artificial neural network is used to predict a sequence of numbers when provided with a sequence of numbers. In the case of translation, each word in the input sentence (e.g English) is encoded as a number to be translated by the neural network into a resulting sequence of numbers representing the translated target sentence (e.g Chinese).</p>
+
+    <p>To give you a simplified example of an English to Chinese machine translation:</p>
+
+    <p>"I am a dog" is encoded into numbers 251, 3245, 953, 2.</p>
+
+    <p>The numbers 251, 3245, 953, 2 are input into a neural translation model and results in output 2241, 9242, 98, 6342.</p>
+
+    <p>2241, 9242, 98, 6342 is then decoded into the Chinese translation “我是只狗"</p>
+
+    <p>The above example then begs a further question 'How does the translation model work?' The simple answer is it is via a complex mathematical formula (represented as a neural network). As described earlier, this formula takes in a string of numbers as inputs and outputs a resulting string of numbers. The parameters of this neural network are created and refined via training the network with millions of sentence pairs (e.g English and Chinese sentence pair translations). Each sentence pair modifies the neural network slightly as it runs through each sentence pair using an algorithm called back-propagation. This results in a best-fit model most accurately translating any of the input numbers into outputs numbers from the millions of sentence pairs it was provided.</p>
+
+    <h2>Problems with Google Translate</h2>
+
+    <p>Although Google Translate has improved significantly since it was launched in 2006, especially for major language pairs, it is still far from perfect. Let's take a look at some of Google Translate's blunders.</p>
+
+
+
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Do you want to translate this DNA sequence from Somali to English?&quot; <a href="https://twitter.com/hashtag/googletranslatefail?src=hash&amp;ref_src=twsrc%5Etfw">#googletranslatefail</a> <a href="https://t.co/3Lz59Ph7c1">pic.twitter.com/3Lz59Ph7c1</a></p>&mdash; Zannah Salter (@Zannah_Du) <a href="https://twitter.com/Zannah_Du/status/856848429477134336?ref_src=twsrc%5Etfw">April 25, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When you want to compliment your Italian host&#39;s amazing meal - and find out that it is only used to refer to heroin. <a href="https://twitter.com/hashtag/GoogleTranslateFail?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleTranslateFail</a> <a href="https://t.co/ZvgkWjHaPB">pic.twitter.com/ZvgkWjHaPB</a></p>&mdash; Chris_in_Georgia (@Hello_MOTO2016) <a href="https://twitter.com/Hello_MOTO2016/status/850085640192577536?ref_src=twsrc%5Etfw">April 6, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          <img src="images/fail1.jpeg" alt="se taper le cul par terre">
+
+    <p>Regardless, if you still think Google Translate is a useful tool, why don't you try to <a href="https://medium.com/@ageitgey/build-your-own-google-translate-quality-machine-translation-system-d7dc274bd476" target="_blank">build your own machine translation system?</a></p>
+    </div>
+  </body>
+</html>
