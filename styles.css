@@ -22,6 +22,9 @@ body {
   background-color: #FFFFD2;
   margin-bottom: 30px;
 }
+.gifs {
+object-position: center;
+}
 .text {
   border: 1px solid;
   border-radius: 3px;
